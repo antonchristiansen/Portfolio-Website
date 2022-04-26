@@ -23,3 +23,34 @@ a {
 }
 
 /* header */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--color-secondary);
+}
+
+.nav-link:hover {
+    color: var(--color-tertiary);
+}
+
+.nav-logo {
+    width: 150px;
+}
