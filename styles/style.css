@@ -22,35 +22,44 @@ a {
     text-decoration: none;
 }
 
-/* header */
+/* navigation */
 
 .navbar {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    background-color: #333;
+    color: white;
+}
+
+.name {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.nav-menu {
+    height: 100%;
 }
 
 .nav-menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-item {
-    margin-left: 5rem;
+    list-style: none;
+    font-size: 2rem;
 }
 
 .nav-link {
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: var(--color-secondary);
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
 }
 
-.nav-link:hover {
-    color: var(--color-tertiary);
-}
-
-.nav-logo {
-    width: 150px;
+.nav-item:hover {
+    background-color: #555;
 }
