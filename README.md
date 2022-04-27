@@ -1,3 +1,3 @@
-# Portfolio
+# Portfolio Website
 
- A portfolio website.
+ A Codecademy project.

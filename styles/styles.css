@@ -257,3 +257,33 @@ a {
         padding: 0 1rem;
     }
 }
+
+/* contact */
+.contact {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+
+.contact-link {
+    padding: 1rem;
+}
+
+.contact-icon {
+    width: 5rem;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .contact {
+        width: 100%;
+        padding: 0 1rem;
+    }
+}
