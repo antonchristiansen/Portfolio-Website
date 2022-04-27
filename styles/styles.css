@@ -39,8 +39,8 @@ a {
     align-items: center;
 }
 
-.name {
-    width: 12rem;
+.nav-logo {
+    width: 13rem;
 }
 
 .nav-menu {
@@ -52,7 +52,7 @@ a {
 }
 
 .nav-item {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     padding: 1rem;
 }
 
@@ -139,7 +139,7 @@ a {
     justify-content: center;
     margin-top: 3rem;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -174,7 +174,7 @@ a {
     align-items: center;
     width: 50%;
     line-height: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -228,7 +228,7 @@ a {
     align-items: center;
     width: 50%;
     line-height: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .project {
@@ -266,7 +266,7 @@ a {
     align-items: center;
     width: 50%;
     line-height: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .contact-link {
