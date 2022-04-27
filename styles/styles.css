@@ -215,3 +215,44 @@ a {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* projects */
+.project-image {
+    width: 5rem;
+}
+
+.projects {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    line-height: 3rem;
+}
+
+.project {
+    border-radius: 0.8rem;
+    background-color: var(--color-primary-darker);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.project-link {
+    color: var(--color-secondary);
+    background-color: var(--color-tertiary-darker);
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+    color: var(--color-tertiary);
+    text-decoration-color: var(--color-tertiary);
+}
+
+@media only screen and (max-width: 768px) {
+    .projects {
+        width: 100%;
+        padding: 0 1rem;
+    }
+}
