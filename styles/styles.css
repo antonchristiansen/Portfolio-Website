@@ -140,10 +140,7 @@ a {
     width: 100%;
     justify-content: center;
     margin-top: 3rem;
-}
-
-.portrait {
-    width: 10rem;
+    align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -159,7 +156,7 @@ a {
 
 .portrait {
     width: 12rem;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .portrait {
