@@ -6,8 +6,11 @@
 
 :root {
     --color-primary: #2B2D42;
+    --color-primary-darker: #151621;
     --color-secondary: #EDF2F4;
+    --color-secondary-darker: #CED4D9;
     --color-tertiary: #8D99AE;
+    --color-tertiary-darker: #414b5c;
     background-color: var(--color-primary);
     color: var(--color-secondary);
     font-family: 'Montserrat', sans-serif;
@@ -22,17 +25,23 @@ a {
     text-decoration: none;
 }
 
+.section-title {
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+
 /* navigation */
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid var(--color-secondary);
 }
 
 .name {
-    font-size: 2rem;
-    margin: 0.5rem;
+    width: 10rem;
 }
 
 .nav-menu {
@@ -61,7 +70,7 @@ a {
 
 .hamburger {
     position: absolute;
-    top: 0.75rem;
+    top: 2rem;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -81,7 +90,7 @@ a {
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
     .hamburger {
         display: flex;
     }
@@ -89,6 +98,7 @@ a {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        border-bottom: none;
     }
 
     .nav-menu {
@@ -107,5 +117,78 @@ a {
 
     .nav-link {
         padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* introduction */
+.introduction {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.portrait {
+    width: 10rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .introduction {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        padding: 2rem 1rem;
+    }
+}
+
+/* about */
+.about {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    line-height: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        width: 100%;
+        padding: 0 1rem;
+    }
+}
+
+/* skills */
+.skills .section-title {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 50%;
+}
+
+.skill-icon {
+    width: 5rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .skills-container {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
