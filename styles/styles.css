@@ -35,13 +35,12 @@ a {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid var(--color-secondary);
 }
 
 .name {
-    width: 10rem;
+    width: 12rem;
 }
 
 .nav-menu {
@@ -50,12 +49,11 @@ a {
 
 .nav-menu {
     display: flex;
-    margin: 0;
-    padding: 0;
 }
 
 .nav-item {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    padding: 1rem;
 }
 
 .nav-link {
@@ -141,6 +139,7 @@ a {
     justify-content: center;
     margin-top: 3rem;
     align-items: center;
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -175,6 +174,7 @@ a {
     align-items: center;
     width: 50%;
     line-height: 3rem;
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -228,6 +228,7 @@ a {
     align-items: center;
     width: 50%;
     line-height: 3rem;
+    font-size: 1.2rem;
 }
 
 .project {
